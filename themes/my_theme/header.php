@@ -16,10 +16,23 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
+  <link rel="stylesheet" id="my_theme-style-css" href="http://localhost:8888/kim_reid-kuhn/wp-content/themes/my_theme/style.css" type="text/css" media="all">
 	<?php wp_head(); ?>
 </head>
+<div class="container">
+  <div class="header clearfix">
+    <!-- <h1 id="kim">Kim Reid-Kuhn</h1> -->
+    <div class="name">Kim Reid-Kuhn</div>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="clearfix">
+  </div>
 
 <body>
+  
