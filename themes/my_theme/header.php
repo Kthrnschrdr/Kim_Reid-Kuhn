@@ -25,7 +25,7 @@
     <div class="name">Kim Reid-Kuhn</div>
     <div class="nav-bar">
       <ul>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Portfolio</a><?php wp_dropdown_categories( $hide_empty); ?> </li>
         <li><a href="#">News</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
