@@ -14,8 +14,9 @@ $pink: #FF42B8;
 }
 
 .content {
-  text-align: center;
-  width: 100%;
+  //text-align: center;
+  width: 100px;
+  margin: 40px auto;
 }
 
 .header {
@@ -42,13 +43,11 @@ $pink: #FF42B8;
   font-family: $fancy_font;
   font-size: 45px;
   margin-left: 20px;
-  opacity: 0.7;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     margin-top:10px;
     text-align: center;
     float: none;
     margin: 0 auto;
-    opacity: 0.7;
   }
 }
 
@@ -58,7 +57,6 @@ $pink: #FF42B8;
   font-family: $fancy_font;
   font-size: x-large;
   margin-right: 20px;
-  opacity: 0.7;
 }
 
 .clearfix {
@@ -73,7 +71,6 @@ li, a {
     float: none;
   }
   @media only screen and (max-width: 721px) {
-    padding-bottom: 20px;
     display: inline-block;
     padding: 6px;
     text-align: center;
@@ -82,12 +79,26 @@ li, a {
     font-size: x-large;
     display: inline-block;
     padding-right: 15px;
-    padding-top: -20px;
   }
 }
 
 a:hover {
   color: $pink;
 } 
+
+.footer {
+  background-color: $dark-grey;
+  width: 100%;
+  height: 70px;
+  color: $whitish;
+  font-family: $font;
+  float: right;
+}
+
+footer img {
+  border-radius: 100%;
+  width: 80px;
+  text-align: center;
+}
 
 
