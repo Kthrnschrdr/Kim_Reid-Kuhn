@@ -16,7 +16,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" id="my_theme-style-css" href="http://localhost:8888/kim_reid-kuhn/wp-content/themes/my_theme/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<?php wp_head(); ?>
 </head>
 <div class="container">
