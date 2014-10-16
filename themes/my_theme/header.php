@@ -21,15 +21,24 @@
 </head>
 <div class="container">
   <div class="header clearfix">
-    <!-- <h1 id="kim">Kim Reid-Kuhn</h1> -->
     <div class="name">Kim Reid-Kuhn</div>
-    <div class="nav-bar">
-      <ul>
-        <li><?php wp_list_categories(); ?></li>
-      </ul>
-    </div>
-    <div class="clearfix">
-  </div>
+    <nav><select name="page-dropdown"
+         onchange='document.location.href=this.options[this.selectedIndex].value;'> 
+         <option value="">
+
+        <?php echo esc_attr( __( 'Select page' ) ); ?></option> 
+         <?php 
+          $args = array('child_of' => 0); $pages = get_pages($args); 
+          foreach ( $pages as $page ) {
+            $option = '<option value="' . get_page_link( $page->ID ) . '">';
+          $option .= $page->post_title;
+          $option .= '</option>';
+          echo $option;
+          }
+         ?>
+        </select></nav>
+  <div class="clearfix"></div>
+</div>
 
 <body>
   

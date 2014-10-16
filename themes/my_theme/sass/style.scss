@@ -14,9 +14,13 @@ $pink: #FF42B8;
 }
 
 .content {
-  //text-align: center;
-  width: 100px;
-  margin: 40px auto;
+  margin: 10px auto;
+}
+
+.content p {
+  width: 60%;
+  font-size: large;
+  color: $pink;
 }
 
 .header {
@@ -29,13 +33,6 @@ $pink: #FF42B8;
     height: 120px;
   }
 }
-
-//h1#kim {
-//  background-image: "image/portrait.png";
-//  width: 100%;
-//  border-radius: 100%;
-//  margin-left: -9999px;
-//}
 
 .name {
   float: left;
@@ -51,7 +48,11 @@ $pink: #FF42B8;
   }
 }
 
-.nav-bar {
+.pagenav {
+  
+}
+
+nav {
   float: right;
   text-transform: lowercase;
   font-family: $fancy_font;
@@ -65,10 +66,9 @@ $pink: #FF42B8;
 
 li, a {
   text-decoration: none;
-  color: $whitish;
+  color: $pink;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     text-align: center;
-    float: none;
   }
   @media only screen and (max-width: 721px) {
     display: inline-block;
@@ -90,7 +90,6 @@ a:hover {
   background-color: $dark-grey;
   width: 100%;
   height: 70px;
-  color: $whitish;
   font-family: $font;
   float: right;
 }
