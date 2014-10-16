@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<?php wp_head(); ?>
 </head>
-<div class="container">
   <div class="header clearfix">
     <div class="name">Kim Reid-Kuhn</div>
     <nav><select name="page-dropdown"
@@ -37,8 +36,9 @@
           }
          ?>
         </select></nav>
-  <div class="clearfix"></div>
-</div>
+    <div class="clearfix"></div>
+ </div>
 
+<div class="container">
 <body>
   

@@ -10,28 +10,53 @@ $pink: #FF42B8;
 .container {
   width: 100%;
   height: 100%;
-//  background-color: $light_grey;
+  background-color: $light_grey;
 }
 
 .content {
-  margin: 10px auto;
+  padding-top: 120px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.content p {
-  width: 60%;
-  font-size: large;
+.content a img {
+  opacity: .4;
+}
+
+h2 {
+  padding-top: 120px;
   color: $pink;
+  font-size: xx-large;
+}
+
+p {
+  width: 50%;
+  font-size: large;
+  color: $whitish;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .header {
   position: absolute;
   background-color: $dark-grey;
   width: 100%;
+  opacity: .7;
   height: 70px;
   color: $whitish;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
-    height: 120px;
+  height: 120px;
   }
+}
+
+.gallery-item {
+  margin-top: 120px;
+}
+
+select {
+  font-family: $fancy_font;
+  color: $whitish;
+  font-size: x-large;
 }
 
 .name {
