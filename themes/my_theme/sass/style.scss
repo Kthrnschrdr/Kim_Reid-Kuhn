@@ -2,7 +2,7 @@
 
 $fancy_font: 'Open Sans Condensed', sans-serif;;
 $font: 'Rajdhani', sans-serif;
-$whitish: #FDFFF6;
+$whitish: #F9FFF9;
 $light_grey: #C2CEC9;
 $dark_grey: #495055;
 $pink: #FF42B8;
@@ -17,10 +17,15 @@ $pink: #FF42B8;
   padding-top: 120px;
   margin: 0 auto;
   text-align: center;
+  width: 80%;
 }
 
 .content a img {
-  opacity: .4;
+
+}
+
+dd {
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -30,7 +35,7 @@ h2 {
 }
 
 p {
-  width: 50%;
+  width: 100%;
   font-size: large;
   color: $whitish;
   margin: 0 auto;
@@ -41,11 +46,14 @@ p {
   position: absolute;
   background-color: $dark-grey;
   width: 100%;
-  opacity: .7;
+  //opacity: .7;
   height: 70px;
   color: $whitish;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
   height: 120px;
+  }
+  @media only screen and (max-width: 321px) {
+  height: 140px;
   }
 }
 
@@ -83,6 +91,12 @@ nav {
   font-family: $fancy_font;
   font-size: x-large;
   margin-right: 20px;
+}
+
+.page-dropdown {
+  text-transform: lowercase;
+  font-family: $fancy_font;
+  font-size: x-large;
 }
 
 .clearfix {

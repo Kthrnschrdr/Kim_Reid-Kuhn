@@ -364,10 +364,11 @@ th {
 .content {
   padding-top: 120px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  width: 80%; }
 
-.content a img {
-  opacity: .4; }
+dd {
+  padding-bottom: 20px; }
 
 h2 {
   padding-top: 120px;
@@ -375,9 +376,9 @@ h2 {
   font-size: xx-large; }
 
 p {
-  width: 50%;
+  width: 100%;
   font-size: large;
-  color: #FDFFF6;
+  color: #F9FFF9;
   margin: 0 auto;
   padding: 10px; }
 
@@ -385,19 +386,21 @@ p {
   position: absolute;
   background-color: #495055;
   width: 100%;
-  opacity: .7;
   height: 70px;
-  color: #FDFFF6; }
+  color: #F9FFF9; }
   @media only screen and (min-width: 321px) and (max-width: 720px) {
     .header {
       height: 120px; } }
+  @media only screen and (max-width: 321px) {
+    .header {
+      height: 140px; } }
 
 .gallery-item {
   margin-top: 120px; }
 
 select {
   font-family: "Open Sans Condensed", sans-serif;
-  color: #FDFFF6;
+  color: #F9FFF9;
   font-size: x-large; }
 
 .name {
@@ -419,6 +422,11 @@ nav {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: x-large;
   margin-right: 20px; }
+
+.page-dropdown {
+  text-transform: lowercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: x-large; }
 
 .clearfix {
   clear: both; }
