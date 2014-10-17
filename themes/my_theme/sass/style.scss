@@ -14,7 +14,7 @@ $pink: #FF42B8;
 }
 
 .content img{
-  
+  padding-top: 20px;
 }
 
 .gallery-item {
@@ -28,6 +28,8 @@ dd {
 }
 
 .content p {
+  margin: 0 auto;
+  padding-top: 120px;
   width: 60%;
   font-size: large;
   color: $pink;
