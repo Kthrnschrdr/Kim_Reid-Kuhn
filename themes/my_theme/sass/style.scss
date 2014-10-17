@@ -38,8 +38,12 @@ dd {
   width: 80%;
 }
 
-.content a img {
-
+.portfolio {
+  font-size: xx-large;
+  font-family: $fancy_font;
+  color: $pink;
+  margin: 0 auto;
+  text-align: center;
 }
 
 dd {
@@ -64,7 +68,6 @@ p {
   font-size: xx-large;
   font-family: $fancy_font;
   color: $pink;
-  float: right;
 }
 
 .menu img {

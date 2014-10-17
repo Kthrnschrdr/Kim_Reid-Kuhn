@@ -381,6 +381,13 @@ dd {
   text-align: center;
   width: 80%; }
 
+.portfolio {
+  font-size: xx-large;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #FF42B8;
+  margin: 0 auto;
+  text-align: center; }
+
 dd {
   padding-bottom: 20px; }
 
@@ -399,8 +406,7 @@ p {
 .menu {
   font-size: xx-large;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #FF42B8;
-  float: right; }
+  color: #FF42B8; }
 
 .menu img {
   float: left;
