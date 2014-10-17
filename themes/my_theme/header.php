@@ -21,24 +21,11 @@
 </head>
   <div class="header clearfix">
     <div class="name">Kim Reid-Kuhn</div>
-    <nav><select name="page-dropdown"
-         onchange='document.location.href=this.options[this.selectedIndex].value;'> 
-         <option value="">
-
-        <?php echo esc_attr( __( 'Select page' ) ); ?></option> 
-         <?php 
-          $args = array('child_of' => 0); $pages = get_pages($args); 
-          foreach ( $pages as $page ) {
-            $option = '<option value="' . get_page_link( $page->ID ) . '">';
-          $option .= $page->post_title;
-          $option .= '</option>';
-          echo $option;
-          }
-         ?>
-        </select></nav>
-    <div class="clearfix"></div>
- </div>
-
+    <nav><?php if( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
+        wp_nav_menu( array( 'theme_location' => 'top-nav', 'menu_class' => 'top-nav') ); 
+      } ?></nav>
+  <div class="clearfix"></div>
+</div>
 <div class="container">
 <body>
   
