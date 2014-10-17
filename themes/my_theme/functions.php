@@ -1,2 +1,7 @@
-<?php register_nav_menus( array(
-    'primary'   => __( 'Top primary menu', 'twentyfourteen' ),)); ?>
+<?
+    function register_entities() {
+    register_nav_menu( 'top-nav', 'Top Navigation Bar');
+    }
+    add_action('init', 'register_entities');
+
+?>
