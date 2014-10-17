@@ -2,7 +2,7 @@
 
 $fancy_font: 'Open Sans Condensed', sans-serif;;
 $font: 'Rajdhani', sans-serif;
-$whitish: #FDFFF6;
+$whitish: #F9FFF9;
 $light_grey: #C2CEC9;
 $dark_grey: #495055;
 $pink: #FF42B8;
@@ -34,17 +34,59 @@ dd {
   font-size: large;
   color: $pink;
   text-align: center;
+
+.content {
+  padding-top: 120px;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.content a img {
+
+}
+
+dd {
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-top: 120px;
+  color: $pink;
+  font-size: xx-large;
+}
+
+p {
+  width: 100%;
+  font-size: large;
+  color: $whitish;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .header {
   position: absolute;
   background-color: $dark-grey;
   width: 100%;
+  //opacity: .7;
   height: 70px;
   color: $whitish;
   @media only screen and (min-width: 321px) and (max-width: 720px) {
-    height: 120px;
+  height: 120px;
   }
+  @media only screen and (max-width: 321px) {
+  height: 140px;
+  }
+}
+
+.gallery-item {
+  margin-top: 120px;
+}
+
+select {
+  font-family: $fancy_font;
+  color: $whitish;
+  font-size: x-large;
 }
 
 .name {
@@ -71,6 +113,12 @@ nav {
   font-family: $fancy_font;
   font-size: x-large;
   margin-right: 20px;
+}
+
+.page-dropdown {
+  text-transform: lowercase;
+  font-family: $fancy_font;
+  font-size: x-large;
 }
 
 .clearfix {

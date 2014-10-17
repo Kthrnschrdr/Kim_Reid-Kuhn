@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<?php wp_head(); ?>
 </head>
-<div class="container">
   <div class="header clearfix">
     <div class="name">Kim Reid-Kuhn</div>
     <nav><?php if( has_nav_menu( 'top-nav' ) ) { /* if menu location 'primary-menu' exists then use custom menu */
@@ -27,6 +26,6 @@
       } ?></nav>
   <div class="clearfix"></div>
 </div>
-
+<div class="container">
 <body>
   
